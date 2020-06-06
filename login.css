@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+    background: rgb(234, 237, 238);
+}
+#profile{
+    position: absolute;
+    width: 100px;
+    height: 160px;
+    left: 12em;
+    bottom: 22em;
+}
+.form{
+    background: linear-gradient(to right,#fff,#f1f5f4);
+    box-shadow: 5px 5px 10px 10px rgba(181, 178, 201, 0.5),10px 14px 19px rgba(239, 239, 239, 0.5);
+    left: 31em;
+    position: absolute;
+    top: 10em;
+    width: 430px;
+    height: 280px;
+    text-transform: uppercase;
+    color: #333;
+    border: none;
+    padding: 40px;
+}
+#welcome{
+    position: relative;
+    left: 3em;
+    bottom: 1em;
+}
+.i{
+    position: relative;
+    left: -.5em;
+    bottom: 1.2em;
+    color: #b1a9a9;;
+}
+#idp{
+    position: relative;
+    display: inline;
+    font-size: 1em;
+    margin-right: 1em;
+    left: 1em;
+    bottom: 3em;
+}
+h5{
+    position: absolute;
+    left: 15px;
+}
+#email,#password{
+    position: relative;
+    border: 1px solid;
+    border-radius: 5px;
+    left: 20px;
+    margin-left: 3px;
+    width: 230px;
+    height: 30px;
+    bottom: 3.5em;
+    padding-left: 10px;
+}
+a{
+    float:right;
+    text-decoration: none;
+    color: #999;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+a:hover {
+    background-color: #32be8f;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1em; 
+}
+#login{
+    background-color:#38d393 ;
+    width: 10em;
+    height: 2em;
+    left:6em;
+    position: relative;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    top: 1em;
+    color: #fff;
+    background-image: linear-gradient(to right,#32be8f,#38d39f,#32be8f);
+    cursor: pointer;
+    font-family: 'poppins',sans-serif;
+    transition: .3s;
+    bottom: 27em;
+}
+#login:active{
+    transform: scale(.95);
+}
+#account{
+    position: absolute;
+    font-size: 1em;
+    left: 10em;
+    top: 19em;
+}
+#register{
+    position: relative;
+    width: 70px;
+    left: 5px;
+    bottom: 3px;
+}
+#forgot{
+    position: relative;
+    font-size: 15px;
+    right: 100px;
+    bottom: 2.5em;
+}
+#register:hover{
+    width: 100px;
+    color: #fff;
+    background-color: #32be8f;
+}
